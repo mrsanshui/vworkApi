@@ -2,7 +2,7 @@
 
 
 
-《vworkApi》是基于Windows平台封装的、REST风格的接口，开发者可通过http轻松调用，真正实现“跨语言”操作
+《vworkApi》是基于PC端的企业微信封装的、REST风格的接口，开发者可通过**HTTP轻松调用**，真正实现“跨语言”操作！
 
 
 
@@ -24,7 +24,8 @@
 ## 使用教程（仅需3步）
 
 > <span style="color: #ff5050">使用前请先安装指定版本的微信</span>
-> 指定版本微信安装包：[https://pan.baidu.com/s/1FKlfwVsFLOhAKYlpSWSSMA](https://pan.baidu.com/s/1FKlfwVsFLOhAKYlpSWSSMA "https://pan.baidu.com/s/1FKlfwVsFLOhAKYlpSWSSMA")
+>
+> 指定版本微信安装包：[https://pan.baidu.com/s/1FKlfwVsFLOhAKYlpSWSSMA](https://pan.baidu.com/s/1FKlfwVsFLOhAKYlpSWSSMA)
 >
 > 提取码：sszs
 
@@ -32,9 +33,9 @@
 
 - 克隆该项目（<span style="color: #ff5050">请关闭你的杀毒软件，否则可能会误删dll文件</span>）
 
-1. 开启一个http服务，并且运行在 `9000` 端口上
+1. 开启一个http服务，并且运行在 `9000` 端口上，请求路径为 `/msg`
 2. 运行《注入工具(图形界面版).exe》点击启动并注入
-3. 注入成功后，即可向 `8989` 端口发送http请求，执行对应操作
+3. 注入成功后，即可向 `8989` 端口发送http请求，执行对应操作，请求路径为 `/api`
 
 
 
