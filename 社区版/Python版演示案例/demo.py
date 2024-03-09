@@ -45,8 +45,8 @@ if __name__ == '__main__':
         print("当前微信版本为：【{}】，请确保你的微信版本是【4.0.0.6024】".format(wx_version))
         sys.exit(0)
 
-    dll_port = 8748  # dll的端口号
-    my_port = 9001   # 自己的端口号
+    dll_port = 8989  # dll的端口号
+    my_port = 9000   # 自己的端口号
 
     # 1、启动http服务【用来监听消息】
     Thread(target=lambda: HTTPServer(("127.0.0.1", my_port), HttpServer).serve_forever()).start()
