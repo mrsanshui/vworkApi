@@ -77,11 +77,12 @@ if __name__ == '__main__':
     print(wx_info)
 
     # 5、发送文本消息
-    requests.post("http://127.0.0.1:{}/api".format(dll_port), json={
+    response = requests.post("http://127.0.0.1:{}/api".format(dll_port), json={
         "type": 3000,
         "user_id": "FILEASSIST",
         "msg": "我是文本消息"
     })
+    print(response.content.decode())
 
     # ...其他操作
 
