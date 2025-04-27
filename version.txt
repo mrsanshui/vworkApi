@@ -1,2 +1,2 @@
-vworkApi V-4.0.2
-1、更新接口使用文档
+vworkApi V-5.0.1
+1、推送《文件类型》消息时，新增file_name字段
