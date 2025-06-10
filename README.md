@@ -40,7 +40,7 @@
 4. 如需监听聊天消息：
    - 开启一个HTTP服务，并且运行在 `9000` 端口上，请求路径为 `/msg`，请求方法为 `POST`
 5. 文档地址：https://www.showdoc.com.cn/mrsanshui/9693807382610096
-
+6. 微信`4.x`PC 历史版本收集: https://github.com/cscnk52/wechat-windows-versions
 
 
 ## 更灵活的使用方法（使用命令行注入）
